@@ -1,0 +1,179 @@
+.head_menu{
+    position: fixed; 
+    width: 100%; 
+    margin: 0; 
+    padding: 0.25em 2.00em 0.25em 0.25em; 
+    text-align: left; 
+    font-size: 0.75em; 
+    background: #FFF; 
+    opacity: 0.9;
+}
+
+.head_menu a{
+    margin: 0 0.5em;
+}
+
+.head_menu form{
+    display: inline;
+}
+
+.head_menu input{
+    width:32em; 
+    height:1.75em;
+    margin: 0 0 0 0.5em; 
+    opacity: 1.0;
+}
+.head_menu button{
+    margin: 0 0.5em; opacity: 1.0;
+}
+
+.header span{
+    padding: 10em 30em 10em 10em;
+    font-size: 32px;
+}
+.THREAD_CONTENTS {
+    z-index:  1;
+    width: 93%; 
+    margin: 0.5em auto 0.75em auto; 
+    padding: 0.75em; 
+    border: 1px solid #333; 
+    color: #333; 
+    border-radius: 0.75em / 0.75em; 
+    background: #EFEFEF; 
+    font-size: 1.00em;
+}
+
+.RES_NUMBER {
+    margin: 0; 
+    padding: 0.25em 0;
+}
+.RES_NUMBER span{
+    z-index:  1;
+    width: 6.0em; 
+    margin: 0.5em 0.25em 0 0; 
+    padding: 0.25em 0.5em; 
+    color: #FFF; border-radius: 0.5em / 0.5em; 
+    background: #39F; 
+    font-size: 1.25em; 
+    text-align: center;
+
+}
+.CP span{
+    z-index:  1; 
+    width: 6.0em; 
+    margin: 0.5em 0.25em 0 0; 
+    padding: 0.25em 0.5em; 
+    color: #FFF; border-radius: 0.5em / 0.5em;
+    background: #333; 
+    font-size: 1.25em; 
+    text-align: center;
+}
+
+.thread_title h3{
+    margin: 0; 
+    padding: 0 2.0em 0 3.0em; 
+    text-indent: -4.0em;
+}
+.thread_title span{
+    padding: 0 0 0.5em 1.0em;
+    color: #FF0000; 
+    font-size: 1.50em;
+}
+.head_menu form{
+    margin: 0px;
+}
+.thread{
+    margin-top: 0px;
+}
+.thread dt{
+    margin: 0px 0.5em; 
+    padding: 0px; 
+    font-size: 1em;
+}
+
+.thread span{
+    color: forestgreen;
+}
+
+.thread small{
+    color: gray;
+}
+
+.thread a{
+    border-color: aliceblue; 
+    background-color: aliceblue; 
+    color: teal; 
+    border-style: outset; 
+    border-width: 1px; 
+    text-decoration: none;
+}
+
+.thread dd{
+    margin-bottom: 2.0em; 
+    font-size: 1.00em; 
+    font-weight: normal;
+}
+
+dt.name{
+    margin: 0px 0.5em; 
+    padding: 0px; 
+    font-size: 1em;
+}
+dt.name span{
+    color: forestgreen;
+}
+dt.name small{
+    color: gray;
+}
+dt.name a{
+    border-color: aliceblue; 
+    background-color: aliceblue; 
+    color: teal; 
+    border-style: outset; 
+    border-width: 1px; 
+    text-decoration: none;
+}
+dt.thread_head{
+    margin-bottom: 2.0em; 
+    font-size: 1.00em; 
+    font-weight: normal;
+}
+.thread_res dt{
+    margin: 0px 0.5em;
+    padding: 0px; 
+    font-size: 1em;
+}
+.thread_res span{
+    color: forestgreen;
+}
+.thread_res small{
+    color: gray;
+}
+.thread_res a{
+    border-color: aliceblue; 
+    background-color: aliceblue; 
+    color: teal; 
+    border-style: outset; 
+    border-width: 1px; 
+    text-decoration: none;
+}
+.thread_res dd{
+    margin-bottom: 2.0em; 
+    font-size: 1.00em; 
+    font-weight: normal;
+} 
+
+p.thread_option{
+    margin: 0; 
+    padding: 0.5em;
+}
+
+p.res_write{
+    margin: 0 0 0 2em; 
+    font-size: 0.75em;
+}
+p.res_write textarea{
+    min-width: 40em; 
+    height: 10.0em; 
+    word-wrap: break-word;
+}

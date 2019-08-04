@@ -1,0 +1,13 @@
+.quatro-form {
+    width: 30%;
+    min-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    border-radius: .25rem;
+}
+
+body {
+    background-image: url("./091-free-backgrounds.png");
+}
