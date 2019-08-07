@@ -1,0 +1,47 @@
+#form{
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    }
+
+form p{
+    font-size: 14px;
+    }
+
+.form-title{
+    text-align: center;
+    }
+
+.ID,.pass{
+    margin-bottom: 20px;
+    }
+
+input[type="id"],
+input[type="password"] {
+    width: 300px;
+    padding: 2px;
+    font-size: 14px;
+    }
+    
+.submit{
+    text-align: center;
+    width: 380px;
+    height: 30px;
+    }
+    
+
+    
+.button1 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-190px;
+  top: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}
+

@@ -1,4 +1,6 @@
-create datebase quattro;
+create table ultra_thread(
+    id char(8000) primary key
+);
 
 create table user_accunt(
     internal_id int primary key,

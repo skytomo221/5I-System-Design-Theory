@@ -1,0 +1,71 @@
+h1 {
+	float: center;
+	padding: 6px 0;
+}
+h1 a {
+	display: block;
+	width: 900px;
+  height: 200px;
+	font-size: 0;
+	background: url(./images/Quatro.png) center/64px auto no-repeat;
+}
+.button1 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-350px;
+  top: -80px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}
+.button2 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-410px;
+  top: -80px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}
+.button3 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-244px;
+  top: -200px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}
+.button4 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-225px;
+  top: -200px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}
+.copywrite {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-173px;
+  top: -20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}

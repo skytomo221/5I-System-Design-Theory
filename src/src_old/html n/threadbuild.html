@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Quatro</title>
+    <link rel="stylesheet" href="threadstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).on("click", ".add", function() {
+            var target = $(this).parent().clone(true).insertAfter($(this).parent());
+            targeture.text = "";
+        });
+        $(document).on("click", ".del", function() {
+            var target = $(this).parent();
+            if (target.parent().children().length > 1) {
+                target.remove();
+            }
+        });
+        </script>
+
+</head>
+<body>
+    <div id="thread">
+            <p>タイトル</p>
+            <p class="title"><input type="title" name="title" /></p>
+            <p>ジャンル</p>
+            <div class="cp_ipselect cp_sl01">
+                <select required>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">D</option>
+                </select>
+                </div>
+            <p>タグ</p>        
+            <div id="input_pluralBox">
+                <div id="input_plural">
+                    <input type="text" class="form-control" placeholder="">
+                    <input type="button" value="＋" class="add pluralBtn">
+                    <input type="button" value="－" class="del pluralBtn">
+                </div>
+            </div>
+            <p>範囲</p>
+            <input type="radio" name="lenge" value="制限なし"checked>制限なし
+            <div class="hidden_box">
+                <input type="radio" name="lenge" value="指定">ユーザー指定
+                <div class="hide">
+                    <p>ID入力</p>
+                    <div id="input_pluralBox">
+                        <div id="input_plural">
+                            <input type="text" class="form-control" placeholder="">
+                            <input type="button" value="＋" class="add pluralBtn">
+                            <input type="button" value="－" class="del pluralBtn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="submit"><input type="submit" value="作成" /></p>
+        </form>
+    </div>
+    </body>
+    </html>

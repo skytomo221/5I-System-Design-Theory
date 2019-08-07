@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Quatro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+</head>>
+
+<body>
+    <form class="quatro-form" action="sign-up2.php">
+        <h1 style="text-align:center;">アカウント登録</h1>
+        <div class="form-group">
+            <label>ユーザ名</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="text1a">@</span>
+                </div>
+                <input type="text" required class="form-control" placeholder="Username" aria-label="Username"
+                    aria-describedby="text1a"  name="input_id" >
+            </div>
+        </div>
+        <div class="form-group">
+            <label>パスワード</label>
+            <input type="password" class="form-control" placeholder="Password" name="input_password" pattern="^(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)[a-zA-Z\d]{8,12}$" title="パスワードは8文字以上12文字以内、半角英数字を必ず含め、大文字、小文字はそれぞれ必ず一文字以上いれてください">
+        </div>
+        <div class="form-group">
+            <label>ニックネーム</label>
+            <input type="text" class="form-control" placeholder="Nickname"  name="input_nickname" required>
+        </div>
+        <div class="form-group">
+            <label>メールアドレス</label>
+            <input type="email" class="form-control" placeholder="E-mail" name="input_email" required>
+        </div>
+        <div class="form-group">
+            <label>アイコンURL</label>
+            <input type="url" class="form-control" placeholder="Icon URL" name="input_url" pattern="(https?)(:\/\/[-_.!~*\'()a-zA-Z0-9;\/?:\@&=+\$,%#]+)\.(jpg|gif|png)" title="画像URLの拡張子は.jpg .png .gifのうちどれかです" required>
+        </div>
+        <div style="text-align: center;">
+            <button type="submit" class="btn btn-primary" value="送信">登録</button>
+        </div>
+    </form>
+<!--    <form id="form1" name="form1" method="post" action="sign-up.php">
+        <h2>アカウント登録</h2>
+        <br />
+        ID <input type="input" name="input_id" /><br />
+        Password <input type="input" name="input_password" /><br />
+        Nickname <input type="input" name="input_nickname" /><br />
+        E-mail <input type="input" name="input_email" /><br />
+        Icon URL <input type="input" name="input_url" /><br />
+        <input type="submit" value="送信">
+    </form>
+-->
+</body>
+
+</html>

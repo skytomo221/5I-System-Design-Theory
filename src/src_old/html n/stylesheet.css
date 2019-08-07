@@ -1,0 +1,68 @@
+h1 {
+	float: left;
+	padding: 6px 0;
+}
+h1 a {
+	display: block;
+	width: 64px;
+	height: 69px;
+	font-size: 0;
+	background: url(./images/Quatro.png) left top/64px auto no-repeat;
+}
+
+.search_container{
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid #3879D9;
+  padding: 3px 10px;
+  border-radius: 3px;
+  height: 2.3em;
+  width: 400px;
+  right:-20px;
+  top: 30.5px;
+  overflow: hidden;
+}
+.search_container input[type="text"]{
+  border: none;
+  height: 2.0em;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  border: none;
+  background: #3879D9;
+  color: #fff;
+  position: absolute;
+  width: 3.5em;
+  height: 3.0em;
+  right:0px;
+  top: -5px;
+  outline : none;
+}
+
+.button1 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-450px;
+  top: -18px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+
+}
+.button2 {
+  color: #454341;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right:-470px;
+  top: -18px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+}

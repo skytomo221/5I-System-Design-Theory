@@ -6,7 +6,7 @@ function random($length = 8)
 
 var_dump($_POST);
 
-$dsn = 'pgsql:dbname=group4 host=localhost port=5432';
+$dsn = 'pgsql:dbname=group4 host=dougom29.kagoshima-ct.ac.jp';
 $user = 'group4';
 $password = '5ig4pass';
 try {
@@ -15,7 +15,7 @@ try {
     print('<code>Error: ' . $e->getMessage() . '</code>');
     die();
 }
-
+/*
 $sql = <<< SQL
 SELECT count(*) FROM user_accunt
 SQL;
@@ -95,9 +95,11 @@ INSERT INTO user_accunt (
     '{$_POST['input_url']}'
 );
 SQL;
+
+print_r($sql)
 try {
     $dbh->query($sql);
 } catch (PDOException $e) {
     print('[ERROR] ' . $e->getMessage() . "\n");
     die();
-}
+}*/
